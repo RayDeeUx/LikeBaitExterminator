@@ -13,3 +13,5 @@ You have two options: replace the offending comment's text with your own (this i
 
 ...or mark it as spam (with the "Show" button doing nothing):
 ![demoTwo](https://github.com/RayDeeUx/LikeBaitExterminator/blob/main/demoTwo.png)
+
+(the screenshots are outdated, the default text should say LikeBaitExterminator by now)
