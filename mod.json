@@ -1,6 +1,10 @@
 {
 	"geode": "2.0.0-beta.16",
-	"gd": "2.204",
+	"gd": {
+        "mac": "2.200",
+        "android": "2.205",
+        "win": "2.204"
+    },
 	"version": "v1.0.0",
 	"id": "raydeeux.likebaitexterminator",
 	"name": "LikeBaitExterminator",
