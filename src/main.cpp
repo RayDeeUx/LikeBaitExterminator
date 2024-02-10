@@ -4,7 +4,7 @@
 
 using namespace geode::prelude;
 
-const std::regex likebaitComment("(?:[\\S ]+)?(?:here.before|i.?.(?:[\\S ]+)?hack(?:ed)?.(?:this.?comment|my)|(?:(?:\\d?.?)?like.?.?(?:\\d|if|si|=|d|button|this.comment|for|to))|(?:can.i|if.this).?(?:gets?.)?(?:\\d|top)|claim.?your(?:[\\S ]+)?ticket|this.comment.is(?:.not)?.hack(?:ed)?|(?:enough|every.\\d+(?:[\\S ]+)?).likes?|(?:pl[sz]|get).(?:[\\S ]+)?\\d+.likes?|this.comment.+likes?|like(?:[\\S ]+)?.(?:or|and).i|for.(?:[\\S ]+).likes?|pl[sz].like|i.like.like.?s)(?:[\\S ]+)?", std::regex_constants::icase);
+const std::regex likebaitComment("(?:[\\S ]+)?(?:here.before|i.?.(?:[\\S ]+)?hack(?:ed)?.(?:this.?comment|my)|(?:(?:\\d?.?)?li(?:ek|ke)\\W?\\W?(?:\\d|if|si|=|d|button|this.comment|for|to))|(?:can.i|if.this).?(?:gets?.)?(?:\\d|top)|claim.?your(?:[\\S ]+)?ticket|this.comment.is(?:.not)?.hack(?:ed)?|(?:enough|every.\\d+(?:[\\S ]+)?).li(?:ek|ke)s?|(?:pl[sz]|get).(?:[\\S ]+)?\\d+.li(?:ek|ke)s?|this.comment.+li(?:ek|ke)s?|li(?:ek|ke)(?:[\\S]+)?.(?:or|and).i?|for.(?:[\\S ]+).li(?:ek|ke)s?|pl[sz].li(?:ek|ke)|i.li(?:ek|ke).li(?:ek|ke).?s)(?:[\\S ]+)?", std::regex_constants::icase);
 
 class $modify(CommentCell) {
 	static void onModify(auto & self)
