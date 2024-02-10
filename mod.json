@@ -19,7 +19,7 @@
 		},
 		"markAsSpam": {
 			"name": "Mark As Spam",
-			"description": "Marks likebaiting comments as spam (with the \"Show\" button doing nothing).",
+			"description": "Marks likebaiting comments as spam. Disclaimer: Sometimes, the \"Show\" button might do nothing.",
 			"type": "bool",
 			"default": false
 		},
