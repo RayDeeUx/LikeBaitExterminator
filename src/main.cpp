@@ -4,7 +4,7 @@
 
 using namespace geode::prelude;
 
-const std::regex likebaitComment("(?:[\\S ]+)?(?:here.before|i.?.(?:[\\S ]+)?hack(?:ed)?.(?:this.?comment|my)|\\+1|(?:(?:\\d?.?)?like.?.?(?:.?\\d|if|si|=|d|button|this|for|to))|(?:can.i|if.this).?(?:gets?.)?(?:\\d|top)|claim.?your(?:[\\S ]+)?ticket|this.comment.is(?:.not)?.hack(?:ed)?|(?:enough|every.\\d(?:[\\S]+)?).likes?|(?:pl[sz]|get).(?:[\\S ]+)?\\d?likes?|this.comment.+likes?|like(?:[\\S ]+)? (?:or|and))(?:[\\S ]+)?", std::regex_constants::icase);
+const std::regex likebaitComment("(?:[\\S ]+)?(?:here.before|i.?.(?:[\\S ]+)?hack(?:ed)?.(?:this.?comment|my)|(?:(?:\\d?.?)?like.?.?(?:\\d|if|si|=|d|button|this|for|to))|(?:can.i|if.this).?(?:gets?.)?(?:\\d|top)|claim.?your(?:[\\S ]+)?ticket|this.comment.is(?:.not)?.hack(?:ed)?|(?:enough|every.\\d+(?:[\\S ]+)?).likes?|(?:pl[sz]|get).(?:[\\S ]+)?\\d+.likes?|this.comment.+likes?|like(?:[\\S ]+)?.(?:or|and).i|for.(?:[\\S ]+).likes?)(?:[\\S ]+)?", std::regex_constants::icase);
 
 class $modify(CommentCell) {
 	static void onModify(auto & self)
