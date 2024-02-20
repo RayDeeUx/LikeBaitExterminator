@@ -10,6 +10,7 @@
 	"name": "LikeBaitExterminator",
 	"developer": "RayDeeUx",
 	"description": "Replaces like-baiting comments with text of your choice.",
+	"repository": "https://github.com/RayDeeUx/LikeBaitExterminator",
 	"settings": {
 		"enabled": {
 			"name": "Enabled",
