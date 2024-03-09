@@ -16,3 +16,5 @@ You have two options: replace the offending comment's text with your own (this i
 
 (the screenshots are outdated, the default text should say LikeBaitExterminator by now)
 (There *can and will* be false positives [likely] and false negatives [not too likely].)
+
+This Geode mod is licensed under LGPLv2.
