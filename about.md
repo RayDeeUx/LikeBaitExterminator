@@ -12,4 +12,4 @@ Mod name vaguely inspired by Hazbin Hotel.
 
 (There *can and will* be false positives [likely] and false negatives [not too likely].)
 
-This Geode mod is licensed under LGPLv2.
+This [Geode mod](https://geode-sdk.org) is licensed under LGPLv2.
