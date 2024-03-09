@@ -40,11 +40,7 @@ class $modify(InfoLayer) {
 	bool init(GJGameLevel* level, GJUserScore* score, GJLevelList* list) {
 		if (!InfoLayer::init(level, score, list)) return false;
 		if (!level) return true;
-        #ifdef GEODE_IS_MACOS
-        	currentLevelID = level->levelId;
-		#else
-			currentLevelID = level->m_levelID.value();
-		#endif
+        currentLevelID = level->m_levelID.value();
 		return true;
 	}
 };
