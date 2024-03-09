@@ -31,7 +31,6 @@ class $modify(DailyLevelNode) {
 	bool init(GJGameLevel* p0, DailyLevelPage* p1, bool p2) {
 		if (!DailyLevelNode::init(p0, p1, p2)) return false;
 		if (!p0) return true;
-		log::info("level ID: {}", p0->m_levelID.value());
 		dailyLevelID = p0->m_levelID.value();
 		return true;
 	}
