@@ -1,11 +1,11 @@
 {
-	"geode": "2.0.0-beta.16",
+	"geode": "2.0.0-beta.25",
 	"gd": {
         "mac": "2.200",
         "android": "2.205",
         "win": "2.204"
     },
-	"version": "v1.1.0",
+	"version": "v1.2.0",
 	"id": "raydeeux.likebaitexterminator",
 	"name": "LikeBaitExterminator",
 	"developer": "RayDeeUx",
@@ -26,7 +26,7 @@
 		},
 		"markAsSpam": {
 			"name": "Mark As Spam",
-			"description": "Marks likebaiting comments as spam. Disclaimer: Sometimes, the \"Show\" button might do nothing.",
+			"description": "Marks likebaiting comments as spam.\n\n<cy>Disclaimer: Sometimes the \"Show\" button does nothing.</c>",
 			"type": "bool",
 			"default": false
 		},
