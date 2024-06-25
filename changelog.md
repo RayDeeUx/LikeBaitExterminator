@@ -1,4 +1,7 @@
 # LikeBaitExterminator Changelog
+## v1.3.0
+- Port to 2.206.
+- Supersede one of my previous mods, PoofShowButton.
 ## v1.2.0
 - Fix a rare crash when combined with Emojis in Comments (with help from Alphalaneous and Prevter).
 - Updated the regex a smidge.
