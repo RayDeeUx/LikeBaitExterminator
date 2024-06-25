@@ -24,6 +24,11 @@ class $modify(CommentCell) {
 			p0->m_commentString = Mod::get()->getSettingValue<std::string>("replacementText");
 		}
 		CommentCell::loadFromComment(p0);
+		if (Mod::get()->getSettingValue<bool>("enabled") && Mod::get()->getSettingValue<bool>("hideShowButton") && p0->m_isSpam) {
+			if (auto spamButton = this->getChildByIDRecursive("spam-button")) {
+				spamButton->setVisible(false);
+			}
+		}
 	}
 };
 
