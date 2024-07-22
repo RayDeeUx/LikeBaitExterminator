@@ -14,4 +14,4 @@ Mod name vaguely inspired by Hazbin Hotel.
 
 (There *can and will* be false positives [likely] and false negatives [not too likely].)
 
-This [Geode mod](https://geode-sdk.org) is licensed under LGPLv2. To report bugs or get help with using my mods, press the Discord button on the lower left corner.
+This [Geode mod](https://geode-sdk.org) is licensed under LGPLv2. To report bugs or get help with using my mods, press the Discord button at the lower left corner.
