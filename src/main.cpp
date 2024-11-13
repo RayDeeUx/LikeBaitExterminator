@@ -45,7 +45,7 @@ class $modify(InfoLayer) {
 	bool init(GJGameLevel* level, GJUserScore* score, GJLevelList* list) {
 		if (!InfoLayer::init(level, score, list)) return false;
 		if (!level) return true;
-        currentLevelID = level->m_levelID.value();
+		currentLevelID = level->m_levelID.value();
 		return true;
 	}
 };
