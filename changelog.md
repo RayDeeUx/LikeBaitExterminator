@@ -1,4 +1,6 @@
 # LikeBaitExterminator Changelog
+## v1.4.1
+- Experimental iOS support.
 ## v1.4.0
 - Port to 2.2074.
 ## v1.3.0
