@@ -20,7 +20,8 @@ class $modify(CommentCell) {
 		std::string commentString = p0->m_commentString;
 		if (Mod::get()->getSettingValue<bool>("enabled") && (std::regex_match(commentString, match, likebaitCommentRegex)) && p0->m_userID != 16) {
 			if (Mod::get()->getSettingValue<bool>("markAsSpam")) p0->m_isSpam = true;
-			p0->m_likeCount = (p0->m_likeCount) * -10;
+			// p0->m_likeCount = (p0->m_likeCount) * -10;
+			this->setUserObject("originalComment"_spr, CCString::create(p0->m_commentString));
 			p0->m_commentString = Mod::get()->getSettingValue<std::string>("replacementText");
 		}
 		CommentCell::loadFromComment(p0);

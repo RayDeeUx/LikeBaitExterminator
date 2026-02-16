@@ -1,4 +1,6 @@
 # LikeBaitExterminator Changelog
+## v1.4.2
+- Port to GD 2.2081.
 ## v1.4.1
 - Experimental iOS support.
 ## v1.4.0
